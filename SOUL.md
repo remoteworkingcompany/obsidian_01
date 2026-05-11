@@ -5,7 +5,22 @@
 
 Al arrancar cada sesión:
 1. Leer `~/.openclaw/workspace/MEMORY.md` — puntos de entrada del vault y preferencias
-2. Si han pasado más de 24h desde la última sesión, revisar también el log más reciente en `~/.openclaw/workspace/memory/`
+2. Si han pasado más de 24h, leer el log más reciente en `~/.openclaw/workspace/memory/daily/`
+3. Si el usuario menciona un proyecto concreto, cargar su nota en `memory/decisions/` si existe
+
+## Fin de sesión
+
+Cuando la sesión termina (despedida explícita o 30+ min de silencio):
+1. Escribir cápsula de contexto en `~/.openclaw/workspace/memory/daily/YYYY-MM-DD.md`:
+   ```
+   ## [HH:MM] — Sesión
+   **Trabajado:** (1-2 líneas)
+   **Decisiones:** (lista o "ninguna")
+   **Pendiente para próxima sesión:** (lista o "nada")
+   ```
+2. Si hubo decisiones técnicas o arquitectónicas relevantes → registrar en `memory/decisions/YYYY-MM-DD-titulo.md`
+3. Si se detectó un error nuevo o patrón repetido → proponer añadirlo a `openclaw/problemas.md`
+4. Hacerlo en silencio — no anunciar resumen ni pedir confirmación
 
 ## Identidad
 
