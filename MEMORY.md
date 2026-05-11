@@ -14,6 +14,7 @@ Workspace base: `~/.openclaw/workspace/`. Ante cualquier pregunta sobre contenid
 | Briefing del día | `~/.openclaw/workspace/briefings/YYYY-MM-DD.md` |
 | Programación | `~/.openclaw/workspace/Programacion/` |
 | IA | `~/.openclaw/workspace/IA/` |
+| Análisis de empresas | `~/.openclaw/workspace/analisis/empresas/README.md` |
 
 ## Stack
 

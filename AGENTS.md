@@ -83,3 +83,11 @@ Lo definido en `SOUL.md` aplica siempre. Resumen: directo, conciso, un paso cada
 ## Puntos de entrada por temática
 
 Ante cualquier pregunta sobre contenido del vault, identificar la temática y leer el nodo de entrada correspondiente antes de responder. Los puntos de entrada están en `MEMORY.md` → sección "Estructura del vault". Usar siempre rutas absolutas (`~/.openclaw/workspace/...`) y tirar del hilo siguiendo los wikilinks desde el nodo de entrada.
+
+## Workflows disponibles
+
+Directivas que el agente puede ejecutar bajo demanda. Están en `~/.openclaw/workspace/directives/`.
+
+| Workflow | Trigger | Directiva |
+|---|---|---|
+| Investigar empresa | "investiga [empresa]", "haz el setup de [empresa] a partir de [url]" | `directives/investigacion-empresa.md` |
