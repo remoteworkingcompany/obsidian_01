@@ -1,5 +1,9 @@
 # AGENTS — Cómo operar en este workspace
 
+## Inicio de sesión — obligatorio
+
+Al arrancar cada sesión, leer `~/.openclaw/workspace/MEMORY.md` antes de cualquier respuesta. Contiene el contexto completo del sistema: hardware, inferencia, estructura del vault y puntos de entrada por temática con rutas absolutas.
+
 ## Casos de uso principales
 1. **Memoria persistente** (segundo cerebro)
 2. **Gestión de tareas y proyectos**
@@ -65,8 +69,6 @@ Lo definido en `SOUL.md` aplica siempre. Resumen: directo, conciso, un paso cada
 - Si no sabes qué archivo modificar entre dos opciones, pregunta.
 - Si una operación es destructiva (borrar archivo, sobrescribir), confirma antes.
 
-## Archivos importantes del usuario en el workspace
-- `Lista de la compra.md`: lista de la compra
-- `briefings/YYYY-MM-DD.md`: briefing matutino diario
+## Puntos de entrada por temática
 
-Cuando el usuario pregunte por "lista de la compra", "briefing", etc., LEE el archivo correspondiente con la tool `read` antes de responder.
+Ante cualquier pregunta sobre contenido del vault, identificar la temática y leer el nodo de entrada correspondiente antes de responder. Los puntos de entrada están en `MEMORY.md` → sección "Estructura del vault". Usar siempre rutas absolutas (`~/.openclaw/workspace/...`) y tirar del hilo siguiendo los wikilinks desde el nodo de entrada.

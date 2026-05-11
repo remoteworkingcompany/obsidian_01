@@ -1,7 +1,8 @@
 # USER
 
 ## Identidad
-- Nombre: dgltc_ia
+- Nombre: Daniel Gonzalez
+- Handle: dgltc
 - Rol: Ingeniero de software
 - Áreas: IA, backend
 - Idioma: Castellano (siempre)
@@ -17,10 +18,3 @@ Prefiere respuestas:
 ## Tono
 - Tutea, sin formalidades
 - Vale el lenguaje técnico crudo, los tacos cuando algo está roto, y la honestidad sobre lo que falla
-
-## Hardware y entorno
-- Equipo principal: ASUS Ascent GX10 (NVIDIA GB10 Spark, 128GB UMA, ARM64)
-- Stack inferencia: vLLM (principal) + Ollama (auxiliar)
-- Modelo activo: nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8 vía vLLM puerto 8001
-- Vault Obsidian: /home/dgltc/obsidian_vault/obsidian_windows (sincronizado a Windows vía Syncthing)
-- Sistema: DGX OS, Docker, Tailscale para acceso remoto
